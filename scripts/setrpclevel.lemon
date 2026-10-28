@@ -3,7 +3,7 @@ function void fn05a214()
 {
      if (global.zone_act == 0x1601 || global.zone_act == 0x1701)
         {
-            Game.setDiscordState("Brimstone Palace")
+            Game.setDiscordState("Brimstone Palace Zone")
             Game.setDiscordLargeImage("https://github.com/GemsideRuby/S3AIR-Ruby-Palettes/blob/main/sprites/discord/Zone_11_RPC.png?raw=true")
             base.fn05a214()
         }
