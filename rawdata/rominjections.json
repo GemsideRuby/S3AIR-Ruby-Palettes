@@ -1,0 +1,15 @@
+{
+    "HPZ_palette":
+    {
+        "File": "Main.bin",
+        
+        "RomInject": "0x0669D2",
+    },
+    
+    "HPZIntro_palette":
+    {
+        "File": "Main.bin",
+        
+        "RomInject": "0x0A9D3C",
+    },
+}

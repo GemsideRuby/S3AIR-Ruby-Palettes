@@ -1,0 +1,11 @@
+//# address-hook(0x05a214) end(0x05a214)
+function void fn05a214()
+{
+if(global.zone_act == 0x1601 || global.zone_act == 0x1701)
+{
+//bup
+	base.fn05a214() //there's probably a way to not add more to the function but uh sure it works.
+	Game.setDiscordLargeImage("zone_unknown")
+	Game.setDiscordState("Brimstone Palace Zone")
+ }
+}
