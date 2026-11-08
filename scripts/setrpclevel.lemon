@@ -8,3 +8,14 @@ function void fn05a214()
             base.fn05a214()
         }
 	}
+
+  //# address-hook(0x0572ae) end(0x0572ae)
+function void fn0572ae()
+{
+	if (global.zone == 0x0a)
+     {
+            Game.setDiscordState("Transcending Sanctuary Zone")
+            Game.setDiscordLargeImage("zone_unknown")
+            base.fn0572ae()
+        }
+}  
