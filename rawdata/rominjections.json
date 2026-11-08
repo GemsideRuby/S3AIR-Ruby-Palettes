@@ -12,4 +12,11 @@
         
         "RomInject": "0x0A9D3C",
     },
+    "SSZ_MainSonic&Tails_palette":
+    {
+        "File": "SSZS&T.bin",
+        
+        "RomInject": "0x0A973C",
+    },
+
 }
