@@ -1,7 +1,10 @@
 include setrpclevel
+Include music
 
 function string ActSelect.GetZoneName(u8 zoneNumber)
 {
+if zoneNumber == 0x00
+return "Verdant Jungle Zone"
 if zoneNumber == 0x0a
 return "Brimstone Palace Zone"
 else if zoneNumber == 0x0b

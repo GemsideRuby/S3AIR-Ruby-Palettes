@@ -1,21 +1,26 @@
-//# address-hook(0x05a214) end(0x05a214)
-function void fn05a214()
+function void yieldExecution()
+{    
+    OtherZones.DiscordRPC() //Stuff i think.
+    //Chars.Palettes.Rawdata() //CHARACTER PALETTES YAY!  
+
+ base.yieldExecution()
+}
+
+function void OtherZones.DiscordRPC()
 {
-     if (global.zone_act == 0x1601 || global.zone_act == 0x1701)
+  if (global.zone == 00)
         {
+            Game.setDiscordState(stringformat("Verdant Jungle Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone_unknown")
+        }
+         if (global.zone_act == 0x1601 || global.zone_act == 0x1701)
+            {
             Game.setDiscordState("Brimstone Palace Zone")
             Game.setDiscordLargeImage("https://github.com/GemsideRuby/S3AIR-Ruby-Palettes/blob/main/sprites/discord/Zone_11_RPC.png?raw=true")
-            base.fn05a214()
-        }
-	}
-
-  //# address-hook(0x0572ae) end(0x0572ae)
-function void fn0572ae()
-{
-	if (global.zone == 0x0a)
-     {
+             }
+        	if (global.zone == 0x0a)
+            {
             Game.setDiscordState("Transcending Sanctuary Zone")
             Game.setDiscordLargeImage("zone_unknown")
-            base.fn0572ae()
-        }
-}  
+            }
+}
