@@ -1,0 +1,54 @@
+{
+	// HUD texts
+	"hud_text_score":	  { "File": "hud_text_sprites.png", "Rect": "0,0,40,12" },
+	"hud_text_time":	  { "File": "hud_text_sprites.png", "Rect": "0,12,40,12" },
+	"hud_text_time_red":  { "File": "hud_text_sprites.png", "Rect": "170,132,40,12" },		// Just an empty pixel in original, feel free to change this
+	"hud_text_rings":	  { "File": "hud_text_sprites.png", "Rect": "0,24,40,12" },
+	"hud_text_rings_red": { "File": "hud_text_sprites.png", "Rect": "124,102,40,12" },		// Just an empty pixel in original, feel free to change this
+
+	// Additional texts for level results
+	"hud_text_ring":  { "File": "hud_text_sprites.png", "Rect": "0,24,32,12" },
+	"hud_text_bonus": { "File": "hud_text_sprites.png", "Rect": "0,36,40,12" },
+	"hud_text_total": { "File": "hud_text_sprites.png", "Rect": "0,48,40,12" },
+
+	// Special stage results
+	"hud_text_score_chaosstage":	{ "File": "hud_text_sprites.png", "Rect": "44,0,40,12" },
+	"hud_text_ring_chaosstage":		{ "File": "hud_text_sprites.png", "Rect": "44,12,32,12" },
+	"hud_text_bonus_chaosstage":	{ "File": "hud_text_sprites.png", "Rect": "44,24,40,12" },
+	"hud_text_perfect_chaosstage":	{ "File": "hud_text_sprites.png", "Rect": "44,36,56,12" },
+	"hud_text_continue_chaosstage":	{ "File": "hud_text_sprites.png", "Rect": "44,48,62,12" },
+	"hud_text_score_superstage":	{ "File": "hud_text_sprites.png", "Rect": "108,0,40,12" },
+	"hud_text_ring_superstage":		{ "File": "hud_text_sprites.png", "Rect": "108,12,32,12" },
+	"hud_text_bonus_superstage":	{ "File": "hud_text_sprites.png", "Rect": "108,24,40,12" },
+	"hud_text_perfect_superstage":	{ "File": "hud_text_sprites.png", "Rect": "108,36,56,12" },
+	"hud_text_continue_superstage":	{ "File": "hud_text_sprites.png", "Rect": "108,48,62,12" },
+
+	// Digits (for score, time, rings)
+	"hud_digit_0": { "File": "hud_text_sprites.png", "Rect":  "0,108,8,12" },
+	"hud_digit_1": { "File": "hud_text_sprites.png", "Rect":  "8,108,7,12" },
+	"hud_digit_2": { "File": "hud_text_sprites.png", "Rect": "15,108,8,12" },
+	"hud_digit_3": { "File": "hud_text_sprites.png", "Rect": "23,108,8,12" },
+	"hud_digit_4": { "File": "hud_text_sprites.png", "Rect": "31,108,8,12" },
+	"hud_digit_5": { "File": "hud_text_sprites.png", "Rect": "39,108,8,12" },
+	"hud_digit_6": { "File": "hud_text_sprites.png", "Rect": "47,108,8,12" },
+	"hud_digit_7": { "File": "hud_text_sprites.png", "Rect": "55,108,8,12" },
+	"hud_digit_8": { "File": "hud_text_sprites.png", "Rect": "63,108,8,12" },
+	"hud_digit_9": { "File": "hud_text_sprites.png", "Rect": "71,108,8,12" },
+
+	// Digits (Chaos Emerald stage results)
+	"hud_digit_0_chaosstage": { "File": "hud_text_sprites.png", "Rect":  "0,120,8,12" },
+	"hud_digit_1_chaosstage": { "File": "hud_text_sprites.png", "Rect":  "8,120,7,12" },
+	"hud_digit_2_chaosstage": { "File": "hud_text_sprites.png", "Rect": "15,120,8,12" },
+	"hud_digit_3_chaosstage": { "File": "hud_text_sprites.png", "Rect": "23,120,8,12" },
+	"hud_digit_4_chaosstage": { "File": "hud_text_sprites.png", "Rect": "31,120,8,12" },
+	"hud_digit_5_chaosstage": { "File": "hud_text_sprites.png", "Rect": "39,120,8,12" },
+	"hud_digit_6_chaosstage": { "File": "hud_text_sprites.png", "Rect": "47,120,8,12" },
+	"hud_digit_7_chaosstage": { "File": "hud_text_sprites.png", "Rect": "55,120,8,12" },
+	"hud_digit_8_chaosstage": { "File": "hud_text_sprites.png", "Rect": "63,120,8,12" },
+	"hud_digit_9_chaosstage": { "File": "hud_text_sprites.png", "Rect": "71,120,8,12" },
+
+	// Other characters for time
+	"hud_char_colon":   { "File": "hud_text_sprites.png", "Rect": "80,108,8,12" },
+	"hud_char_minutes": { "File": "hud_text_sprites.png", "Rect": "88,108,8,12" },
+	"hud_char_seconds": { "File": "hud_text_sprites.png", "Rect": "96,108,8,12" },
+}
