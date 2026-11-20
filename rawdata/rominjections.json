@@ -1,4 +1,22 @@
 {
+    //verdant jungle
+            
+            "aiz1_palette_main":
+            {
+                "File": "AIZ/Main.bin",
+                
+                "RomInject": "0x0A8B7C",
+            },
+            
+            "aiz1_palette_water":
+            {
+                "File": "AIZ/Water.bin",
+                
+                "RomInject": "0x0A8C9C",
+            },
+            
+
+    
     "HPZ_palette":
     {
         "File": "Main.bin",
