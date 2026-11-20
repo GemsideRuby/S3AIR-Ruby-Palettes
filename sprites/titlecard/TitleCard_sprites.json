@@ -1,3 +1,5 @@
 {
+    "TitleCard_ZoneTitle_0x00":  { "File": "TitleCard_ZoneTitle_01_VERDANT_JUNGLE.png", "Rect": "0,0,209,24", "Center": "104,0" },
 	"TitleCard_ZoneTitle_0x0d":  { "File": "TitleCard_ZoneTitle_11_BRIMSTONE_PALACE.png", "Rect": "0,0,253,24", "Center": "126,0" },
+    "TitleCard_ZoneTitle_0x0a":  { "File": "TitleCard_ZoneTitle_12_TRANSCENDING_SANCTUARY.png", "Rect": "0,0,352,24", "Center": "176,0" },
 }
