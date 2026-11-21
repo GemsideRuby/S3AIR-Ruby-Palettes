@@ -11,16 +11,120 @@ function void OtherZones.DiscordRPC()
   if (global.zone == 00)
         {
             Game.setDiscordState(stringformat("Verdant Jungle Zone, Act %d", (global.act.apparent + 1)))
-             Game.setDiscordLargeImage("zone_unknown")
+             Game.setDiscordLargeImage("https://github.com/GemsideRuby/S3AIR-Ruby-Palettes/blob/next/sprites/discord/Zone_1_RPC.png?raw=true")
+        }
+        if (global.zone == 0x01)
+        {
+            Game.setDiscordState(stringformat("Hydrocity Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone02_hcz")
+            
+        }
+         if (global.zone == 0x02)
+        {
+            Game.setDiscordState(stringformat("Marble Garden Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone03_mgz")
+            
+        }
+          if (global.zone == 0x03)
+        {
+            Game.setDiscordState(stringformat("Carnival Night Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone04_cnz")
+            
+        }
+          if (global.zone == 0x05)
+        {
+            Game.setDiscordState(stringformat("Ice Cap Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone05_icz")
+            
+        }
+         if (global.zone == 0x06)
+        {
+            Game.setDiscordState(stringformat("Launch Base Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone06_lbz")
+            
+        }
+         if (global.zone == 0x07)
+        {
+            Game.setDiscordState(stringformat("Mushroom Hill Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone07_mhz")
+            
+        }
+         if (global.zone == 0x04)
+        {
+            Game.setDiscordState(stringformat("Flying Battery Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone08_fbz")
+            
+        }
+         if (global.zone == 0x08)
+        {
+            Game.setDiscordState(stringformat("Sandopolis Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone09_soz")
+            
+        }
+         if (global.zone == 0x09)
+        {
+            Game.setDiscordState(stringformat("Lava Reef Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone10_lrz")
+            
+        }
+         if (global.zone_act == 0x1600)
+        {
+            Game.setDiscordState("Lava Reef Zone, Act 2 (Boss)")
+             Game.setDiscordLargeImage("zone10_lrz")
+            
         }
          if (global.zone_act == 0x1601 || global.zone_act == 0x1701)
             {
             Game.setDiscordState("Brimstone Palace Zone")
-            Game.setDiscordLargeImage("https://github.com/GemsideRuby/S3AIR-Ruby-Palettes/blob/main/sprites/discord/Zone_11_RPC.png?raw=true")
+            Game.setDiscordLargeImage("https://github.com/GemsideRuby/S3AIR-Ruby-Palettes/blob/next/sprites/discord/Zone_11_RPC.png?raw=true")
              }
         	if (global.zone == 0x0a)
             {
             Game.setDiscordState("Transcending Sanctuary Zone")
             Game.setDiscordLargeImage("zone_unknown")
             }
+            if (global.zone == 0x0B)
+        {
+            Game.setDiscordState(stringformat("Death Egg Zone, Act %d", (global.act.apparent + 1)))
+             Game.setDiscordLargeImage("zone13_dez")
+            
+        }
+         if (global.zone_act == 0x1700)
+        {
+            Game.setDiscordState("Death Egg Zone, Act 2 (Boss)")
+             Game.setDiscordLargeImage("zone13_dez")
+            
+        }
+         if (global.zone == 0x0C)
+        {
+            Game.setDiscordState("Doomsday Zone")
+             Game.setDiscordLargeImage("zone14_ddz")
+            
+        }
+}
+
+//# address-hook(0x05d8bc) end(0x05d9e8) //sonic and tails
+function void fn05d8bc()
+{
+    Game.setDiscordState("Outro")
+    Game.setDiscordLargeImage("sonic3air")
+
+    base.fn05d8bc()
+}
+
+//# address-hook(0x05e70e) end(0x05e804) //knuckles
+function void fn05e70e()
+{
+    Game.setDiscordState("Outro")
+    Game.setDiscordLargeImage("sonic3air")
+
+    base.fn05e70e()
+}
+//# address-hook(0x05928c) end(0x0592bc) //credits
+function void fn05928c()
+{
+     Game.setDiscordState("Credits")
+    Game.setDiscordLargeImage("sonic3air")
+
+    base.fn05928c()
 }
